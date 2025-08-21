@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--
+        <link rel="stylesheet" href="styles/styles.css">
+        -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>Horarios</title>
+
+</head>
+
+<body class="bg-dark">
+    <div class="text-center p-2">
+        <br>
+        <img src="img/ceai.png" alt="Descripción de la imagen" class="img-fluid rounded p-2">
+        <h1 class="text-white">Solicitud de Horarios</h1>
+        <h4 class="text-white"> Laboratorio de computación</h4>
+        <br>
+    </div>
+    <div class="container-sm bg-dark border rounded border-danger">
+
+        <form class="form-dark p-5">
+            <br>
+            <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su Nombre">
+            </div>
+            <br>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione El día</option>
+                <option value="1">Lunes</option>
+                <option value="2">Martes</option>
+                <option value="3">Miercoles</option>
+                <option value="3">Jueves</option>
+                <option value="3">Viernes</option>
+            </select>
+            <br>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Selecione el horario</option>
+                <option value="1">08:30 a 09:15</option>
+                <option value="2">09:15 a 10:00</option>
+                <option value="3">10:10 a 10:55</option>
+                <option value="3">10:55 a 11:40</option>
+                <option value="3">11:45 a 12:30</option>
+                <option value="3">12:30 a 13:15</option>
+                <option value="3">-------------</option>
+
+                <option value="3">14:00 a 14:45</option>
+                <option value="3">14:45 a 15:30</option>
+                <option value="3">15:40 a 16:25</option>
+                <option value="3">16:25 a 17:10</option>
+                <option value="3">17:15 a 18:00</option>
+                <option value="3">18:00 a 18:45</option>
+                <option value="3">-------------</option>
+
+                <option value="3">19:00 a 19:45</option>
+                <option value="3">19:45 a 20:30</option>
+                <option value="3">20:30 a 21:25</option>
+                <option value="3">21:25 a 22:10</option>
+                <option value="3">22:10 a 22:55</option>
+                <option value="3">22:55 a 23:40</option>
+
+            </select>
+            <br>
+
+            <div class="d-flex">
+                <button type="button" class="btn btn-outline-light me-auto">Confirmar</button>
+
+                <div class="sm-auto">
+
+                    <button class="faq-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path
+                                d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z">
+                            </path>
+                        </svg>
+                        <br>
+                        <span class="tooltip">Información</span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+        <br>
+    </div>
+    <br><br><br>
+
+    <div class="container-sm">
+
+        <table class="table table-hover table-dark">
+            <tr>
+                <th scope="col">Horario</th>
+                <th scope="col">Lunes</th>
+                <th scope="col">Martes</th>
+                <th scope="col">Miercoles</th>
+                <th scope="col">Jueves</th>
+                <th scope="col">Viernes</th>
+            </tr>
+            <tr>
+                <td>08:30 a 09:15</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>09:15 a 10:00</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>10:10 a 10:55</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>10:55 a 11:40</td>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+
+            </tr>
+            <tr>
+                <td>11:45 a 12:30</td>
+                <td>j</td>
+                <td>j</td>
+                <td>j</td>
+                <td>j</td>
+                <td>j</td>
+            </tr>
+            <tr>
+                <td>12:30 a 13:15</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr class="table-info">
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>14:00 a 14:45</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>14:45 a 15:30</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>15:40 a 16:25</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>16:25 a 17:10</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>17:15 a 18:00</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>18:00 a 18:45</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr class="table-info">
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>19:00 a 19:45</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>19:45 a 20:30</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>20:30 a 21:25</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>21:25 a 22:10</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>22:10 a 22:55</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <td>22:55 a 23:40</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>
