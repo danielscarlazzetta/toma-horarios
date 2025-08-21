@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "electron": "^37.3.1"
+    "electron": "^37.3.1",
+    "electron-forge": "^5.2.4",
+    "electron-reload": "^2.0.0-alpha.1"
   }
 }
